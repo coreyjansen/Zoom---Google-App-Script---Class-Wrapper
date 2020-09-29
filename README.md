@@ -88,5 +88,7 @@ Class for the Webinars extends Zoom
 
 ### Example Code
 
-```var webinar = Zoom.createZoomWebinar(zoomApiKey,zoomSecret, zoomID);
-zoomRegistrants = webinar.registrants;```
+```javascript
+var webinar = Zoom.createZoomWebinar(zoomApiKey,zoomSecret, zoomID);
+zoomRegistrants = webinar.registrants;
+```
