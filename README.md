@@ -82,3 +82,11 @@ Class for the Webinars extends Zoom
 | `removeRecordingPassword` | `(): any`                                                                                | Remove password from recording                                                                        |
 | `updateContactInfo`       | `(contactName: string, contactEmail: string): string`                                    | Updates contact information of Webinar                                                                |
 | `updateSurveyURL`         | `(postSurveyURL: string): string`                                                        | Updates the post webinar survey url for the speicifc webinar                                          |
+
+
+
+
+### Example Code
+
+```var webinar = Zoom.createZoomWebinar(zoomApiKey,zoomSecret, zoomID);
+zoomRegistrants = webinar.registrants;```
